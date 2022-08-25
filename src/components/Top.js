@@ -8,7 +8,7 @@ import youtube from '../img/icon_youtube.png';
 import logo from '../img/logo_baskinrobbins.png';
 import search from '../img/icon_search.png';
 
-import Gnb from '../components/Gnb';
+
 const Top = () => {
     return (
         <div className="header">
@@ -39,7 +39,7 @@ const Top = () => {
                     <img src={search} className="icon" />
                 </nav>
             </div>
-            <Gnb />
+            
         </div>
         
     );

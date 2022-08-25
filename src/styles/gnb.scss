@@ -1,60 +1,197 @@
+body {
+    margin : 0;
+}
+ul {
+    padding : 0;
+    margin : 0;
+}
 .gnb {
     box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+   
    
 }
+
 .menu {
-    height : 50px;
-    background-color : red;
-    display: flex;
-    align-items: center;
-    a{
-        cursor: pointer;
-        display: block;
-    }
-    .login {
+    height : 40px;
+    width : 100%;
+    margin: auto;
+    cursor: pointer;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    
+    
+    .menu_list {
+        width :1200px;
+        margin: auto;
         
-        background-color : green;
-        width : 15%;
-       .login_list {
-        display: flex;
-        height : 50px;
-        align-items: center;
+        
+        
+       .list {
+        display : flex;
+        justify-content : space-between;
+        padding : 10px 0;
+        font-size : 18px;
         li {
-            padding : 10px 30px;
+            display : block;
+            text-align : center;
+            &:nth-child(1){
+                background-image: url("../img/gnb_menu.png");
+                background-position: 0px -13px;
+                
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            &:nth-child(2){
+                background-image: url("../img/gnb_menu.png");
+                
+                background-position: -98px -13px;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            &:nth-child(3){
+                background-image: url("../img/gnb_menu.png");
+            
+                background-position: -124px -15px;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+
+            }
+            &:nth-child(4){
+                background-image: url("../img/gnb_menu.png");
+                
+                background-position: -415px -15px;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            &:nth-child(5){
+                background-image: url("../img/gnb_menu.png");
+                
+                background-position: -525px -15px;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            &:nth-child(6){
+                background-image: url("../img/gnb_menu.png");
+                
+                background-position: -735px -15px;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                
+                
+            }
+            &:nth-child(7){
+                background-image: url("../img/gnb_menu.png");
+                
+                background-position: -895px -15px;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                
+                
+            }
+            &:nth-child(8){
+                background-image: url("../img/gnb_menu.png");
+                
+                background-position: -1049px -15px;
+                text-indent: 100%;
+                white-space: nowrap;
+                overflow: hidden;
+                
+                
+            }
+            &:last-child {
+                margin-right: 20px;
+            }
         }
+        
+      
+        
+        
        }
        
-        
-        
-    }
-    .menu_list {
-        background-color : yellow;
-        width : 85%;
-        
-        span {
-            background-image: url(../img/gnb_menu.png);
-            background-repeat: no-repeat;
-            background-position : -130px -16px;
-            margin-left : 120px;
-            cursor: pointer;
-            display: block;
-            text-indent: 10000px;
-            
-        }
-      
-    }
+     }
+           
 }
 
+.menu_wrap {
+    width : 100%;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    border-top: 1px solid rgb(214, 214, 214);
     
+    
+}
 
 .menu_item {
     height : 300px;
-    background-color:rgb(109, 109, 109);
-    display : flex;
-    .best {
-        padding-left: 100px;
-    }
+    
+    border-bottom: 2px solid #eee;
+    width : 1200px;
+    margin : auto;
+    display: flex;
+    
+   
+        .point {
+            width : 200px;
+            height : 150px;
+            padding-top: 50px;
+        }
+        .best {
+            margin-left : 20px;
+            
+            width : 200px;
+            
+        }
+    
     .gnb_sub {
+        display: flex;
+        
+        
+        a {
+            text-decoration: none;
+            color : #7b7b7b;
+        }
+
+        ul {
+            text-align: center;
+            font-size: 16px;
+            line-height: 40px;
+            padding-top: 30px;
+          
+            
+
+            &:nth-child(1){
+                margin-left: 40px;
+            }
+            &:nth-child(2){
+                margin-left: 90px;
+            }
+            &:nth-child(3){
+                margin-left: 110px;
+            }
+            &:nth-child(4){
+                margin-left: 65px;
+            }
+            &:nth-child(5){
+                margin-left: 70px;
+            }
+            
+           
+            li:hover {
+                a {
+                    color : rgb(255, 160, 176);
+                }
+            }
+                
+            
+        }
         
     }
 }

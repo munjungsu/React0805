@@ -20,13 +20,16 @@
 
   .my-node-enter {
     opacity: 0;
+    
   }
   .my-node-enter-active {
     opacity: 1;
     transition: opacity 200ms;
+    margin-bottom: 200px;
   }
   .my-node-exit {
     opacity: 1;
+    
   }
   .my-node-exit-active {
     opacity: 0;

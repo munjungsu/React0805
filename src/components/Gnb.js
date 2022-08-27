@@ -15,14 +15,14 @@ const Gnb = () => {
       const handleMouseOut = ()=>{
         setShowMessage(false);
       }
-console.log(showMessage)
+      
   return (
     <div className="gnb" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
         <div className="menu">
             <div className="menu_list">
                 <ul className="list">
-                    <li><div className="login">login</div></li>
-                    <li><span className="join">join</span></li>
+                    <li>login</li>
+                    <li>join</li>
                     <li>FLAVOR OF THE MONTH</li>
                     <li>MENU</li>
                     <li>영양 성분 및 알레르기</li>
@@ -38,7 +38,7 @@ console.log(showMessage)
       unmountOnExit
       
       >
-        <div className="menu_wrap" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+        <div className="menu_wrap" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut} value={showMessage}>
             <div className='menu_item' >
                 
                 <img className="point" src={point} />
@@ -149,7 +149,9 @@ console.log(showMessage)
             </div>
         </div>
         </CSSTransition>
+        
     </div>
+    <div className={showMessage ? 'bannerActive' : 'banner'}></div>
     </div>
   );
 };

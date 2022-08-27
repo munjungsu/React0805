@@ -1,12 +1,11 @@
-import Top from './components/Top';
-import Gnb from './components/Gnb';
-import Container from './components/Container';
+import Main from './pages/main';
+import {Routes, Route} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Top />
-      <Gnb />
-      <Container />
+      <Routes>
+        <Route path="/" element={<Main />} />
+      </Routes>
     </div>
   );
 }

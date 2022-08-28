@@ -1,4 +1,7 @@
-
+.container {
+    height: 600px;
+    
+}
 
     
     .img01 {
@@ -50,17 +53,6 @@
         background-position: center center;
         height : 600px;
     }
-    h3 {
-        background-image: url(../img/h_event.png);
-        background-repeat: no-repeat;
-        background-position: 50% 0;
-        text-indent: -9999px;
-        margin-top:50px;
-        margin-bottom:50px;
-    }
+    
 
-    .event1 {
-        background-image: url(../img/1685932709.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+    

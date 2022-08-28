@@ -12,7 +12,7 @@ import search from '../img/icon_search.png';
 const Top = () => {
     return (
         <div className="header">
-            <div className="container">
+            <div className="h_container">
                 <nav className="nav">
                     <a href="https://www.facebook.com/baskinrobbins.kr/" target="_blank">
                         <img src={Facebook} className="icon" />

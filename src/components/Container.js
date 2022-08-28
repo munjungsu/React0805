@@ -12,9 +12,9 @@ const Container = () => {
     
     
     return (
-        <div>
+        <div className="container">
      <Swiper modules={[Pagination, Navigation]}
-     slidesPerView={1} navigation pagination={{clickable: true}}  className="main">
+     slidesPerView={1} navigation pagination={{clickable: true}} loop={true} className="main">
         <SwiperSlide>
             <div className="img01"></div>
         </SwiperSlide>
@@ -37,7 +37,7 @@ const Container = () => {
             <div className="img07"></div>
         </SwiperSlide>
       </Swiper>
-      <h3>brmenu</h3>
+      
         </div>
     );
 };

@@ -1,0 +1,99 @@
+.footer {
+    border-top:1px solid #feaf2b;
+    font-family: "Nanum Barun Gothic", "나눔고딕", "NanumGothic", "돋움", "Dotum", sans-serif;
+    
+    .nav {
+        width:1000px;
+        margin: auto;
+        padding : 20px 0;
+        font-size : 14px;
+        ul {
+            .import {
+                a {
+                    color : #ff7c98;
+                    font-weight : bold;
+                }
+            }
+            a {
+                text-decoration: none;
+                color : #726454;
+               
+            }
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+        }
+    }
+
+    .brand_nav {
+        background-color: #f9f8f7;
+
+        .brand_icon{
+            width : 800px;
+            margin: auto;
+            ul {
+                display: flex;
+                
+                li {
+                    padding-left: 20px;
+                    span {
+                        display: block;
+                    }
+                   .point {
+                    background-image: url(../img/btn_happypoint.png);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width : 100px;
+                    height : 100px;
+                   }
+                   .market {
+                    background-image: url(../img/btn_happymarket.png);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width : 100px;
+                    height : 100px;
+                   }
+                   .spc {
+                    background-image: url(../img/btn_spc_story.png);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width : 100px;
+                    height : 100px;
+                   }
+                   .notion {
+                    background-image: url(../img/btn_norton.gif);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width : 100px;
+                    height : 100px;
+                   }
+                   .con {
+                    background-image: url(../img/btn_ccm_2.png);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width : 30px;
+                    height : 30px;
+                    background-size: cover;
+                    margin-top: 33px;
+                   }
+                   .ksa {
+                    background-image: url(../img/btn_ksa.png);
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    width : 30px;
+                    height : 30px;
+                    background-size: cover;
+                    margin-top: 33px;
+                   }
+
+                   .dropdown {
+                    font-size: 12px;
+                    margin-top: 32px;
+                }
+                }
+            }
+        }
+
+        
+    }
+}

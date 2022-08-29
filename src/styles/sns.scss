@@ -1,0 +1,59 @@
+.sns {
+    width: 400px;
+    margin: 100px auto;
+    h3 {
+        text-align: center;
+        background-image: url(../img/h_sns.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        text-indent: -9999px;
+    }
+    ul {
+        display: flex;
+        justify-content:space-between;
+        li {
+            
+            span {
+                display: block;
+            }
+        
+        .facebook{
+            background-image: url(../img/icon_facebook.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width:50px;
+            height:50px;
+        }
+            
+        .twitter{
+                background-image: url(../img/icon_twitter.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width:50px;
+                height:50px;
+            }
+        .blog{
+                background-image: url(../img/icon_blog.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width:50px;
+                height:50px;
+            }
+           .instagram{
+                background-image: url(../img/icon_instgram.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width:50px;
+                height:50px;
+            }
+           .youtube{
+                background-image: url(../img/icon_youtube.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width:50px;
+                height:50px;
+            }
+        }
+    
+    }
+}

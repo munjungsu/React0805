@@ -1,0 +1,55 @@
+.delivery {
+    width: 1200px;
+    margin: auto;
+    
+    .title {
+        display: flex;
+        
+        
+        .store_title {
+            width:600px;
+            height:150px;
+            text-align: center;
+            line-height: 150px;
+            h3 {
+                background-image: url(../img/h_store.png);
+                background-repeat: no-repeat;
+                background-position : center;
+                text-indent: -9999px;
+            }
+        }
+        .order_title {
+            width:600px;
+            height:150px;
+            text-align: center;
+            line-height: 150px;
+            h3 {
+                background-image: url(../img/h_happyorder_delivery.png);
+                background-repeat: no-repeat;
+                background-position : center;
+                text-indent: -9999px;
+            }
+        }
+        
+    }
+
+    .delivery_img {
+        display: flex;
+        .store {
+            background-image: url(../img/img_store.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            width:600px;
+            height : 300px;
+        }
+        .order {
+            background-image: url(../img/img_happyorder_delivery.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            width:600px;
+            height: 300px;
+        }
+    }
+}

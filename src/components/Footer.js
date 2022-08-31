@@ -90,7 +90,7 @@ const Footer = () => {
                         </li>
                         <li>
 
-                        <Dropdown options={options} placeholder="베스킨라빈스 main" className="dropdown" />
+                        <Dropdown options={options} placeholder="베스킨라빈스 practice" className="dropdown" />
 
                         </li>
                     </ul>

@@ -89,7 +89,9 @@ const Footer = () => {
                             </a>
                         </li>
                         <li>
+
                         <Dropdown options={options} placeholder="베스킨라빈스 main" className="dropdown" />
+
                         </li>
                     </ul>
                 </nav>
